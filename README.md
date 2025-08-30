@@ -1,4 +1,43 @@
 # memoryAI
+## Progress
+RyoAI/
+├── config/                  # モデル設定ファイル
+│   └── ✅gpt_config.py
+│
+├── data/                    # データ関連
+│   ├── raw/                 # 生データ（JSONLなど）
+│   ├── processed/           # 整形・トークナイズ済みデータ
+│   └── tokenizer/           # SentencePieceモデル・語彙ファイル
+│       ├── ryo_tok.model
+│       └── ryo_tok.vocab
+│
+├── model/                   # Transformerモデル定義
+│   ├── layers.py
+│   └── ✅gpt_model.py
+│
+├── train/                   # 学習・評価スクリプト
+│   ├── ✅train.py
+│   ├── evaluate.py
+│   └── dataset.py
+│
+├── inference/               # 推論・生成関連コード
+│   ├── generate.py
+│   └── sampling.py
+│
+├── checkpoints/             # 学習済みモデル保存場所
+│   ├── ckpt_ep0.pt
+│   ├── ckpt_ep1.pt
+│   └── best.pt
+│
+├── utils/                   # 補助関数（ロガー、LRスケジューラなど）
+│   ├── lr_scheduler.py
+│   └── logger.py
+│
+├── notebooks/               # Colab用ノートブック
+│   └── RyoAI_training.ipynb
+│
+├──✅README.md               # プロジェクト概要
+└── requirements.txt         # 必要なPythonパッケージ一覧
 ## License & Usage Policy
 
 This project is **not licensed under any open-source license**.  
