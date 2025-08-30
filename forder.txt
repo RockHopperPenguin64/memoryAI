@@ -1,6 +1,6 @@
 RyoAI/
 ├── config/                  # モデル設定ファイル
-│   └── gpt_config.py
+│   └── ✅gpt_config.py
 │
 ├── data/                    # データ関連
 │   ├── raw/                 # 生データ（JSONLなど）
@@ -11,7 +11,7 @@ RyoAI/
 │
 ├── model/                   # Transformerモデル定義
 │   ├── layers.py
-│   └── gpt_model.py
+│   └── ✅gpt_model.py
 │
 ├── train/                   # 学習・評価スクリプト
 │   ├── train.py
