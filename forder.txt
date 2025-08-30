@@ -14,7 +14,7 @@ RyoAI/
 │   └── ✅gpt_model.py
 │
 ├── train/                   # 学習・評価スクリプト
-│   ├── train.py
+│   ├── ✅train.py
 │   ├── evaluate.py
 │   └── dataset.py
 │
@@ -34,5 +34,5 @@ RyoAI/
 ├── notebooks/               # Colab用ノートブック
 │   └── RyoAI_training.ipynb
 │
-├── README.md                # プロジェクト概要
+├──✅README.md               # プロジェクト概要
 └── requirements.txt         # 必要なPythonパッケージ一覧
