@@ -16,7 +16,7 @@ RyoAI/
 ├── train/                   # 学習・評価スクリプト
 │   ├── ✅train.py
 │   ├── evaluate.py
-│   └── dataset.py
+│   └── ✅dataset.py
 │
 ├── inference/               # 推論・生成関連コード
 │   ├── generate.py
@@ -28,7 +28,7 @@ RyoAI/
 │   └── best.pt
 │
 ├── utils/                   # 補助関数（ロガー、LRスケジューラなど）
-│   ├── lr_scheduler.py
+│   ├── ✅lr_scheduler.py
 │   └── logger.py
 │
 ├── notebooks/               # Colab用ノートブック
