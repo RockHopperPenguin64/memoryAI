@@ -19,7 +19,7 @@ RyoAI/
 │   └── ✅dataset.py
 │
 ├── inference/               # 推論・生成関連コード
-│   ├── generate.py
+│   ├── ✅generate.py
 │   └── sampling.py
 │
 ├── checkpoints/             # 学習済みモデル保存場所
