@@ -15,7 +15,7 @@ RyoAI/
 │
 ├── train/                   # 学習・評価スクリプト
 │   ├── ✅train.py
-│   ├── evaluate.py
+│   ├── ✅evaluate.py
 │   └── ✅dataset.py
 │
 ├── inference/               # 推論・生成関連コード
