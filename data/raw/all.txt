@@ -10097,42 +10097,21 @@ L字型のユニットが画面上部中央から降ってくる。
 ゲームの難易度はEASY（LEVEL 0スタート）、NORMAL（LEVEL 10スタート）、HARD（LEVEL 40スタート）、EXPERT（LEVEL 100スタート）の4段階がある。
 EASYでは最初の数レベルの間、ボールが倒すことのできるコズモを教えてもらえる。
 またボールは単独で降ってくる。
-
 EASYでは最初のピンチの時に強制的にスターが降り、以降は降らない。
-
 EXPERTではLEVEL 111以降で「全消し」すると、最初の1回に限り100万点のボーナス点に加え（以降は10万点）、フィールド背景にクレジット（スタッフ一覧）がしばらく表示される（アーケード版のみ）。
 この際、「やったぞ～」というボイスが出る。
-
 原則として1人用と同じだが、ボールにより一定数以上のコズモ（2P側ではピーポーパーポー隊）を倒すと、相手にコズモ（ピーポーパーポー隊）を降らせることができる。
 先に相手をゲームオーバーに追い込めば勝ち。
-
 アーケード版では、ハイスコア入力画面において、同じ文字のみ（例:AAAAAA）を入力すると、その代わりにナムコの（発売当時時点で）過去のゲームのタイトル（またはその略称）がランダムで入力されたことにされた。
 タイトルは下記の通り。
-
-8 HOURS, ADV OF W, ASLTPLUS, ASSAULT, BABEL, BAKUTOTS, BARADUKE, BERABOW, B.FORCE, BLASTOFF, BLAZER, BOMB BEE, BSCNIAN, BTL.CITY, BTROUBLE, CGPUZZLE, CG.VIDEO, CUTIE Q, D.BUSTER, D.E.LINK, D.EYES, DIGDUG, DIGDUG 2, DIRTFOX, DNGRSEED, D.SABER, D.SPIRIT, EXVANIA, F/A, FACE OFF, FINALLAP, FNL.LAP2, FNL.LAP3, FOURTRAX, FSTADIUM, FST.HOUR, F.TENNIS, GAL.3, GALAGA, GALAGA88, GALAXIAN, GAPLUS, GEE BEE, GEKITOU, GENPEI.T, GROBDA, GY!GHOST, HP.MAPPY, KAITEI.T, KING&BAL, KYUKAI.D, LGD OF W, LIBBLE.R, L.RABBLE, MAPPY, MARVEL.L, MCN.MAZE, MOTOS, MR.NINJA, MTL.HAWK, MTRCROSS, NAVALON, NEW RLYX, ORDYNE, PACLAND, PACMAN, PACMANIA, PAC&PAL, P.DAIMYO, PHANTOMS, PHELIOS, PHOZON, POLE P.2, POLE POS, PUCKMAN, QSTR S.E, QUESTER, QUEST KI, QUIZ MAQ, RALLY-X, R.ISHTAR, ROMPERS, R.THNDR2, RTHUNDER, SCHINESE, SIMDRIVE, SKYKID, SKYKIDDX, S.LUSTER, SOLVALOU, S.O.S., SOUKOBAN, S.PACMAN, SPLATTER, ST.BLADE, STEELGN2, STEELGUN, S.W.S.92, S.W.STDM, SXEVIOUS, T.CEPTOR, TCEPTOR2, T.DRUAGA, TNK BTLN, TNKFORCE, TOYPOP, WARPWARP, WD.COURT, WNG.RUN, WONDERMM, WRLDSTDM, W.RUN 91, W.STDM89, W.STDM90, W.SUZUKA, XEVIGAMP, XEVIOUS, YOUKAI.D
-ゲーム誌『』の企画「第7回」（1993年度）において、年間ヒットゲーム16位を獲得した。
-
-ゲーム誌『』の「」では、7・8・6・8の合計29点（満40点）、『』の読者投票による「ゲーム通信簿」での評価は以下の通りとなっており、21.63点（満30点）となっている。
+ゲーム誌の企画において、年間ヒットゲーム16位を獲得した。
 この得点はスーパーファミコン全ソフトの中で92位（323本中、1993年時点）となっている。
-
-ゲーム誌『』の「ザ・テストプレイ」では総合評価72点（100点満点）。
+ゲーム誌の「ザ・テストプレイ」では総合評価72点（100点満点）だった。
 レビュアーは「1人プレイと対戦では結構違って脳を刺激する」「コズモを消すにはボールの動きを正確に把握しなければならないのは適度に戦略性があってたまらない」「偶然よりパターンが決まったときの方が爽快でそれを編み出したり完成させる楽しさがある」「容量が少なくグラフィックは弱くて残念だがあまり気になるものではない」「キャラクターやコズモの声が可愛い」「ゲーム自体はオリジナルと変わらないのでお金のかかるAC版よりそれを家で遊べるのはオススメだ」とした。
-
-
-『』（ザ・ヴィジョナリュクス）は、の1枚目の。
-にから発売。
-
 「3CD+3DVD+写真集3冊」「CD+DVD」「CDのみ」の3形態で発売。
 豪華盤は、の作品に収録されたTAKAHIROの作詞曲とソロ歌唱曲、ソロ活動、TAKAHIROがボーカルを務めるロックバンドの作品を3つに分けてそれぞれ収録。
 総重量は3kgを超える。
-
 アルバムのタイトルは、Vision（視界や景色）、Visionary（夢・想い）、Lux（光）、Luxe（華美）、X（10年目の新たな歩み）という5つの意味が込められた造語。
-
-
-『』（グローブ ディケイド コンプリート ボックス ナインティーンナイティファイブ トゥーサウザンドフォー）は、のの。
-発売。
-発売元は。
-
 globeのデビュー10周年を記念して発売されたCD-BOX。
 完全受注生産。
 29枚組＋10枚組＋9枚組。
@@ -10144,15 +10123,8 @@ globeのデビュー10周年を記念して発売されたCD-BOX。
 だった「」から「」までの18タイトルは今回12cm化（マキシ化）されている。
 なお、8thシングル「」は8cmシングルの音源とはミックスが異なる未発表バージョンと未発表リミックスが収録されている。
 
-だった28thシングル「」、29thシングル「」、9thアルバム『』はが解除され、通常の規格となっている。
+28thシングル、29thシングル、9thアルバムは解除され、通常の規格となっている。
 
 2枚のSPECIAL DVDには過去にで放送された3本とこれまでに発売された全作品のテレビCMが収録されている。
-
-本作に付属されている全シングルと2枚のSPECIAL DVD以外のディスクがglobeのデビュー15周年を記念してに発売されたCD-BOX『』と重複している。
-
-『』と同時発売。
-
-
-は、株式会社が、に伴い「」として参入し、一般家庭向け（低圧分野）に提供する電力事業の料金プランの名称である。
-
+本作に付属されている全シングルと2枚のSPECIAL DVD以外のディスクがglobeのデビュー15周年を記念してに発売されたCD-BOXと重複している。
 携帯電話契約（auスマートフォン/auケータイ）またはインターネット契約（auひかり）加入者が、契約対象者となる。
