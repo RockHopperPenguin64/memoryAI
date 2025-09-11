@@ -8,7 +8,7 @@ class GPTConfig:
     n_heads: int = 32               # Attentionヘッド数
     d_model: int = 1024             # 埋め込み次元
     d_ff: int = 3072                # FFNの隠れ層次元
-    dropout: float = 0.16           # Dropout率
+    dropout: float = 0.17           # Dropout率
     max_seq_len: int = 1024         # 最大シーケンス長（位置埋め込み）
 
     # 特殊トークン（必要に応じて）
