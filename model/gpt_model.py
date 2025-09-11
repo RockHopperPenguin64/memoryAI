@@ -3,7 +3,6 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch.utils.checkpoint import checkpoint
 from config.gpt_config import GPTConfig
-cfg = GPTConfig()
 
 class RMSNorm(nn.Module):
     def __init__(self, dim, eps=1e-6):
