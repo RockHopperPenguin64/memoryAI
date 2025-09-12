@@ -11,7 +11,7 @@ class GPTConfig:
     dropout: float = 0.17           # Dropout率
     max_seq_len: int = 1024         # 最大シーケンス長（位置埋め込み）
 
-    # 特殊トークン（必要に応じて）
+    # 特殊トークン
     bos_token_id: int = 0
     eos_token_id: int = 1
     user_token_id: int = 2
