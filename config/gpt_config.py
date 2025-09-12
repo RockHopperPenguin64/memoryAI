@@ -3,7 +3,7 @@ from dataclasses import dataclass
 @dataclass
 class GPTConfig:
     # モデル構造
-    vocab_size: int = 32000         # Juman++   {SentencePiece(旧)}  の語彙サイズ（32k or 50k）
+    vocab_size: int = 32005         # Juman++   {SentencePiece(旧)}  の語彙サイズ（32k or 50k）
     n_layers: int = 16              # Transformer層数
     n_heads: int = 32               # Attentionヘッド数
     d_model: int = 1024             # 埋め込み次元
