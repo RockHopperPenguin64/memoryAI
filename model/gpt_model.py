@@ -116,6 +116,7 @@ class GPT(nn.Module):
         loss = F.cross_entropy(
             logits[:, :-1, :].contiguous().view(-1, logits.size(-1)),
             targets[:, 1:].contiguous().view(-1),
-            label_smoothing=0.05
+            label_smoothing=0.05,
+            ignore_index = self.cfg.pad_token_id
         )
         return logits, loss
