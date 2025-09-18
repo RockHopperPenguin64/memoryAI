@@ -7,3 +7,5 @@ You are welcome to **view and learn from the code**, but **cloning, modifying, r
 Additionally, **unauthorized access to any linked services, including SQL servers or APIs, is strictly prohibited**.
 
 If you wish to use or adapt this code, please contact me via GitHub Discussion or DM.
+
+""e-mail"" : fankymonkey876@gmail.com
