@@ -28,7 +28,42 @@ The project aims to enable contextual dialogue by integrating a memory retrieval
 ---
 
 ## Project Structure
+model/
+└── gpt_model.py  # Transformer model implementation
 
+config/
+└── gpt_config.py # Model configuration via dataclass
+
+infrence/
+├── generate.py  # Text generation logic 
+└── sampling.py  # Sampling and filtering functions
+
+train/
+├── train.py  # Training loop with optimizer and scheduler 
+├── evaluate.py  # Evaluation metrics (e.g., perplexity) 
+└── dataset.py  # Dataset loader and preprocessing
+
+utils/ 
+└── lr_scheduler.py # Cosine learning rate scheduler
+
+---
+
+## Technologies Used
+
+- Python / PyTorch  
+- SentencePiece / Juman++  
+- SQL (planned for memory storage and retrieval)  
+- Mixed Precision Training  
+- Cosine Learning Rate Scheduler
+
+---
+
+## Development Roadmap
+
+1. **Model Completion** – Finalize GPT architecture and inference logic  
+2. **Training Phase** – Begin model training with curated Japanese datasets  
+3. **Memory System Integration** – Implement SQL-based memory retrieval logic  
+4. **Contextual Dialogue** – Enable long-term memory-aware responses
 
 ---
 
