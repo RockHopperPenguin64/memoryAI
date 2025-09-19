@@ -29,22 +29,30 @@ The project aims to enable contextual dialogue by integrating a memory retrieval
 
 ## Project Structure
 model/
-└── gpt_model.py  # Transformer model implementation
+
+└── **gpt_model.py**    _# Transformer model implementation_
 
 config/
-└── gpt_config.py # Model configuration via dataclass
+
+└── **gpt_config.py**   _# Model configuration via dataclass_
 
 infrence/
-├── generate.py  # Text generation logic 
-└── sampling.py  # Sampling and filtering functions
+
+├── **generate.py**     _# Text generation logic_
+
+└── **sampling.py**     _# Sampling and filtering functions_
 
 train/
-├── train.py  # Training loop with optimizer and scheduler 
-├── evaluate.py  # Evaluation metrics (e.g., perplexity) 
-└── dataset.py  # Dataset loader and preprocessing
+
+├── **train.py**       _ # Training loop with optimizer and scheduler _
+
+├── **evaluate.py**     _# Evaluation metrics (e.g., perplexity) _
+
+└── **dataset.py**      _# Dataset loader and preprocessing_
 
 utils/ 
-└── lr_scheduler.py # Cosine learning rate scheduler
+
+└── **lr_scheduler.py** _# Cosine learning rate scheduler_
 
 ---
 
