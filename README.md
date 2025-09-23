@@ -1,4 +1,5 @@
 # memoryAI - Long-Term Memory Enhanced GPT Model
+→License&Policy
 
 ## Overview
 
