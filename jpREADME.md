@@ -1,5 +1,5 @@
 # memoryAI - 長期記憶を強化したGPTモデル  
-[→ライセンスと利用規約](https://github.com/RockHopperPenguin64/memoryAI/blob/main/License.md)
+[→ライセンスと利用規約](https://github.com/RockHopperPenguin64/memoryAI/blob/main/jpLicense.md)
 
 ## 概要
 
@@ -24,7 +24,7 @@
   混合精度学習、コサイン学習率スケジューリング、パープレキシティによる評価を含む。
 
 ## プロジェクト構成
-→[フォルダ構成](https://github.com/RockHopperPenguin64/memoryAI/blob/main/forderJP.txt)
+→[フォルダ構成](https://github.com/RockHopperPenguin64/memoryAI/blob/main/jpForder.txt)
 
 
 ## 使用技術
