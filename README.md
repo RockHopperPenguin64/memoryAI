@@ -5,7 +5,7 @@
 **memoryAI** is a custom-built Transformer-based GPT model designed to support long-term memory capabilities.  
 The project aims to enable contextual dialogue by integrating a memory retrieval system that references past conversations stored in a SQL database.
 
----
+ 
 
 ## Key Features
 
@@ -25,7 +25,7 @@ The project aims to enable contextual dialogue by integrating a memory retrieval
 - **Training Pipeline**  
   Includes mixed precision training (GradScaler, autocast), cosine learning rate scheduling, and perplexity-based evaluation.
 
----
+ 
 
 ## Project Structure
 model/
@@ -54,7 +54,7 @@ utils/
 
 └── **lr_scheduler.py** _# Cosine learning rate scheduler_
 
----
+ 
 
 ## Technologies Used
 
@@ -64,7 +64,7 @@ utils/
 - Mixed Precision Training  
 - Cosine Learning Rate Scheduler
 
----
+ 
 
 ## Development Roadmap
 
@@ -73,7 +73,7 @@ utils/
 3. **Memory System Integration** – Implement SQL-based memory retrieval logic  
 4. **Contextual Dialogue** – Enable long-term memory-aware responses
 
----
+ 
 
 ## License & Usage Policy
 
