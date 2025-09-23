@@ -8,3 +8,4 @@
 コードの使用や改変を希望する場合は、GitHub DiscussionまたはDMでご連絡ください。
 
 **メールアドレス** : fankymonkey876@gmail.com
+→[**Discussion**](https://github.com/RockHopperPenguin64/memoryAI/discussions)
