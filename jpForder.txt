@@ -1,4 +1,4 @@
-RyoAI/
+memoryAI/
 ├── config/                  # モデル設定ファイル
 │   └── ✅gpt_config.py
 │
