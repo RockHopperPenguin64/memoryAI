@@ -3,6 +3,27 @@
 
 →[🇯🇵日本語はこちら](https://github.com/RockHopperPenguin64/memoryAI/blob/main/jpREADME.md)
 
+---
+
+### 🙇‍ Important Notice & Apology regarding Project Status and Licensing 🙇‍
+
+Thank you for visiting and cloning this project.
+
+I sincerely apologize for any confusion caused by the lack of clear information regarding the project's non-open source license and its current development status.
+
+**Regarding the Project's Status:**
+The long-term memory feature is not yet implemented. The project is currently in the training phase as part of its development roadmap.
+
+**Regarding the License:**
+This project is **not open source.**
+You are welcome to view and learn from the code, but cloning, modifying, or redistributing it is not permitted without explicit permission from the author.
+
+If you cloned this repository without knowing this policy, please refrain from using the code for other projects.
+
+Thank you for your understanding. I will strive to be more transparent in my future updates.
+
+---
+
 ## Overview
 
 **memoryAI** is a custom-built Transformer-based GPT model designed to support long-term memory capabilities.  
