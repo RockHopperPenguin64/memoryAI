@@ -83,12 +83,3 @@ utils/
 - Mixed Precision Training  
 - Cosine Learning Rate Scheduler
 
- 
-
-## Development Roadmap
-
-1. **Model Completion** – Finalize GPT architecture and inference logic  
-2. **Training Phase** – Begin model training with curated Japanese datasets  
-3. **Memory System Integration** – Implement SQL-based memory retrieval logic  
-4. **Contextual Dialogue** – Enable long-term memory-aware responses
-
