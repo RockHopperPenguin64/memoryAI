@@ -8,4 +8,5 @@ Additionally, **unauthorized access to any linked services, including SQL server
 If you wish to use or adapt this code, please contact me via GitHub Discussion or DM.
 
 **e-mail** : fankymonkey876@gmail.com
+
 →[**Discussion**](https://github.com/RockHopperPenguin64/memoryAI/discussions)
