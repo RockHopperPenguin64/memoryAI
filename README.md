@@ -28,6 +28,22 @@ The project aims to enable contextual dialogue by integrating a memory retrieval
 - **Training Pipeline**  
   Includes mixed precision training (GradScaler, autocast), cosine learning rate scheduling, and perplexity-based evaluation.
 
+## Development Roadmap
+
+- **Phase 1: Model Core Completion**  ✅[Completed]
+  - Finalize the GPT architecture and inference logic.
+  - Implement a basic training pipeline.
+
+- **Phase 2: Training & Optimization** ⏳[In Progress]
+  - Begin model training with Japanese datasets.
+  - Optimize the training process using mixed precision and a cosine learning rate scheduler.
+
+- **Phase 3: Memory System Integration** 🔜[Planned]
+  - Design and implement the SQL-based memory retrieval logic.
+  - Integrate the memory system to allow the model to reference past conversations.
+
+- **Phase 4: Contextual Dialogue** 🚀[Future]
+  - Finalize the overall system to enable long-term memory-aware responses.
  
 
 ## Project Structure
