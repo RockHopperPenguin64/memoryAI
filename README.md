@@ -1,5 +1,5 @@
 # memoryAI - Long-Term Memory Enhanced GPT Model
-[→License&Policy]()
+[→License&Policy](https://github.com/RockHopperPenguin64/memoryAI/blob/main/License.md)
 
 ## Overview
 
