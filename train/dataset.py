@@ -2,7 +2,7 @@ import torch
 from torch.utils.data import Dataset
 import json
 
-class RyoDataset(Dataset):
+class Dataset(Dataset):
   def __init__(self, path, seq_len=600)
     self.data = []
     self.seq_len = seq_len
