@@ -3,7 +3,7 @@ from torch.utils.data import DataLoader
 from torch.cuda.amp import GradScaler, autocast
 from config.gpt_config import GPTConfig
 from model.gpt_model import GPT
-from train.dataset import RyoDataset
+from train.dataset import Dataset
 from utils.lr.lr_scheduler import cosine_lr
 
 def train_one_epoch(model, loader, optimizer, scaler, scheduler, device, accum_steps=8, clip=0.3):
@@ -53,8 +53,8 @@ def main():
   model = GPT(cfg).to(device)
 
   #データ読み込み（トークナイズ済み）
-  train_ds = RyoDataset("data/processed/train.jsonl", seq_len=600)
-  valid_ds = RyoDataset("data/processed/valid.jsonl", seq_len=600)
+  train_ds = Dataset("data/processed/train.jsonl", seq_len=600)
+  valid_ds = Dataset("data/processed/valid.jsonl", seq_len=600)
   train_loader = DataLoader(train_ds, batch_size = 2, shuffle = True)
   valid_loader = DataLoader(valid_ds, batch_size = 3,
 
