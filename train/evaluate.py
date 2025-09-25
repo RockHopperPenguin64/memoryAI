@@ -1,7 +1,7 @@
 import torch
 from torch.cuda.amp import autocast
 from torch.utils.data import DataLoader
-from train.dataset import RyoDataset
+from train.dataset import Dataset
 from config.gpt_config import GPTConfig
 from model.gpt_model import GPT
 
@@ -26,7 +26,7 @@ def main():
   model.load_state_dict(torch.load("checkpoints/best.pt", map_location=device))
 
   #データの読み込み
-  vaild_ds = RyoDataset("data/processed/valid.jsonl", seq_len=cfg.max_seq_len)
+  vaild_ds = Dataset("data/processed/valid.jsonl", seq_len=cfg.max_seq_len)
   valid_loader = DataLoader(valid_ds, batch_size=2)
 
   #評価実行
