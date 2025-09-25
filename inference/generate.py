@@ -1,7 +1,7 @@
 import torch
 from config.gpt_config import GPTConfig
 from model.gpt_model import GPT
-from train.dataset import RyoDataset
+from train.dataset import Dataset
 import sentencepiece as spm
 
 def sample(model, idx, max_length=600, temprature=1.0, top_k=50, top_p=0.95):
@@ -42,7 +42,7 @@ def main():
 
   #トークナイザーの読み込み
   sp_model = spm.SentencePieceProcessor()
-  sp_model.load("data/tokenizer/ryo_tok.model")
+  sp_model.load("data/tokenizer/jumanpp_bin/juman-7.0.1.tar.bz2")
 
   #入力文
   prompt = "<user>こんにちは、最近どう？<bot>"
