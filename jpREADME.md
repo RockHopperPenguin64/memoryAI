@@ -1,7 +1,7 @@
 # memoryAI - 長期記憶強化型GPTモデル
 →[ライセンスとポリシー](https://github.com/RockHopperPenguin64/memoryAI/blob/main/jpLicense.md)
 
-→[🇺🇸English version here](https://github.com/RockHopperPenguin64/memoryAI/blob/main/README.md)
+→[🌐English version here](https://github.com/RockHopperPenguin64/memoryAI/blob/main/README.md)
 
 ---
 
