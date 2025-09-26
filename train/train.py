@@ -7,7 +7,7 @@ from train.dataset import Dataset
 from utils.lr.lr_scheduler import cosine_lr
 
 def train_one_epoch(model, loader, optimizer, scaler, scheduler, device, accum_steps=8, clip=0.3):
-  model.train(
+  model.train()
     total_loss = 0.0
     optimizer.zero_grad(set_to_none=True)
 
