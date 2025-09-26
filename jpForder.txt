@@ -6,8 +6,8 @@ memoryAI/
 │   ├── raw/                 # 生データ（JSONLなど）
 │   ├── processed/           # 整形・トークナイズ済みデータ
 │   └── tokenizer/           # SentencePieceモデル・語彙ファイル
-│       ├── ryo_tok.model
-│       └── ryo_tok.vocab
+│       ├── 
+│       └── 
 │
 ├── model/                   # Transformerモデル定義
 │   ├── 🅾️layers.py
@@ -32,7 +32,7 @@ memoryAI/
 │   └── ⚛️logger.py
 │
 ├── notebooks/               # Colab用ノートブック
-│   └── RyoAI_training.ipynb
+│   └── training.ipynb
 │
 ├──✅README.md               # プロジェクト概要
 └── requirements.txt         # 必要なPythonパッケージ一覧
