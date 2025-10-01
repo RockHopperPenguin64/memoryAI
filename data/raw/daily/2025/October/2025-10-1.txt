@@ -1,1 +1,1 @@
-YES!YES!YES! Let's Start training for AI as my assistant!
+<user>おはよう！<bot>おはよう！今日は何か予定はある？
