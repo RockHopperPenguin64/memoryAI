@@ -5,7 +5,7 @@
 
 ---
 
-### 🥳CountDOWN‼️ =====>  _**🤔1DAY🤩**_
+### 🥳CountDOWN‼️ =====>  _**💥0DAY💥**_ Let's Start Training!!
 
 ---
 
