@@ -12,8 +12,8 @@ def evaluate(model, loader, device):
 
   for x, y in loader:
     x, y = x.to(device), y.to(device)
-    with autocast()
-      _, loss = madel(x, y)
+    with autocast():
+      _, loss = model(x, y)
     total_loss += loss.item() * x.numel()
     total_tokens += x.numel()
   ppl = torch.exp(torch.tensor(total_loss / total_tokens))
