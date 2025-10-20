@@ -73,6 +73,38 @@ The project aims to enable contextual dialogue by integrating a memory retrieval
  
 
 ## Project Structure
+```
+/content/memoryAI
+├── config
+│   └── gpt_config.py
+├── data
+│   ├── raw
+│   │   ├── all.txt
+│   │   └── daily
+│   │       └── 2025
+│   │           └── October
+│   │               └── 2025-10-1.txt
+│   └── tokenizer
+│       ├── mecab-0.996.tar.gz
+│       └── user_dic
+│           └── mecab-ipadic-2.7.0-20070610.tar.gz
+├── inference
+│   ├── generate.py
+│   └── sampling.py
+├── jpForder.txt
+├── jpLicense.md
+├── jpREADME.md
+├── License.md
+├── model
+│   └── gpt_model.py
+├── README.md
+├── train
+│   ├── dataset.py
+│   ├── evaluate.py
+│   └── train.py
+└── utils
+    └── lr_scheduler.py
+```
 model/
 
 └── **gpt_model.py**    _# Transformer model implementation_
