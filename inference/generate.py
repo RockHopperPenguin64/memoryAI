@@ -4,7 +4,7 @@ from model.gpt_model import GPT
 from train.dataset import Dataset
 import sentencepiece as spm
 
-def sample(model, idx, max_length=600, temprature=1.0, top_k=50, top_p=0.95):
+def sample(model, idx, max_length=600, temperature=1.0, top_k=50, top_p=0.95):
   model.eval()
   device = next(model.parameters()).device
   idx = idx.to(device)
@@ -16,17 +16,17 @@ def sample(model, idx, max_length=600, temprature=1.0, top_k=50, top_p=0.95):
     #Top-k filtering
     if top_k > 0:
       values, _ = torch.topk(logits, top_k)
-      logits[logits < values[:, [-1]]] = -float("Inf")
+      logits[logits < values[:, [-1]]] = -float("inf")
 
     #Top-p sampling
     sorted_logits, sorted_indices = torch.sort(logits, descending=True)
     cumulative_probs = torch.softmax(sorted_logits, dim=-1).cumsum(dim=-1)
-    sorted_indices_to_remoce = cumulative_probs > top_p
-    sorted_logits[sorted_indices_to_remove = -float("Inf")
+    sorted_indices_to_remove = cumulative_probs > top_p
+    sorted_logits[sorted_indices_to_remove = -float("inf")
     logits = torch.zeros_like(logits).scatter(1, sorted_indices, sorted_logits)
 
     probs = torch.softmax(logits, dim=-1)
-    next_token = torch.multinomial(probs, num_sample=1)
+    next_token = torch.multinomial(probs, num_samples=1)
     idx = torch.cat((idx, next_token), dim=1)
 
   return idx
@@ -36,7 +36,7 @@ def decode(tokens, sp_model):
 
 def main():
   cfg = GPTConfig(max_seq_len=2048)
-  devicce = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+  device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
   model = GPT(cfg).to(device)
   model.load_state_dict(torch.load("checkpoints/best.pt", map_location=device))
 
