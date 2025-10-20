@@ -56,7 +56,7 @@ def main():
   train_ds = Dataset("data/processed/train.jsonl", seq_len=600)
   valid_ds = Dataset("data/processed/valid.jsonl", seq_len=600)
   train_loader = DataLoader(train_ds, batch_size = 2, shuffle = True)
-  valid_loader = DataLoader(valid_ds, batch_size = 3,
+  valid_loader = DataLoader(valid_ds, batch_size = 3, shuffle=False)
 
   #最適化
   optimizer = torch.optim.AdamW(model.parameters(), lr=3e-4, betas=(0.9, 0.95), weight_decay=0.1)
