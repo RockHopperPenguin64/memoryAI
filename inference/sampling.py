@@ -1,14 +1,14 @@
 import torch
 import torch.nn.functional as F
 
-def sample_logits(logits, temperature=1.0, top_k=50, top_p=0.95)
+def sample_logits(logits, temperature=1.0, top_k=50, top_p=0.95):
   #温度調整
   logits = logits / temperature
 
   #top-kフィルタリング
   if top_k > 0:
     values, _ = torch.topk(logits, top_k)
-    logits[logits < values[:, [-1]]] = -float("Inf")
+    logits[logits < values[:, [-1]]] = -float("inf")
 
   #top-pフィルタリング
   sorted_logits, sorted_indices = torch.sort(logits, descending=True)
