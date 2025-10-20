@@ -32,14 +32,14 @@ def train_one_epoch(model, loader, optimizer, scaler, scheduler, device, accum_s
 return total_loss / len(loader)
 
 @torch.no_grad()
-def evalute(model, loader, device):
+def evaluate(model, loader, device):
   model.eval()
   total_loss, total_tokens = 0.0, 0
 
   for x, y in loader:
     x, y = x.to(device), y.to(device)
     with autocast():
-      /, loss = model(x, y)
+      _, loss = model(x, y)
     total_loss += loss.item() * x.numel()
     total_tokens += x.numel()
 
