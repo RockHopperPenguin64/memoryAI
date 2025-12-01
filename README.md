@@ -49,7 +49,6 @@ The project aims to enable contextual dialogue by integrating a memory retrieval
 
 - **Memory Retrieval Logic (Planned)**  
   A SQL-based memory system will allow the model to retrieve relevant past dialogue based on token-level matching and weighted scoring.  
-  Top-k filtering and re-ranking will be used to select the most contextually appropriate memory.
 
 - **Training Pipeline**  
   Includes mixed precision training (GradScaler, autocast), cosine learning rate scheduling, and perplexity-based evaluation.
