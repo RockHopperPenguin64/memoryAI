@@ -47,7 +47,7 @@
   Top-k・Top-pフィルタリング、温度スケーリング、繰り返しペナルティ等でテキスト生成を制御。
 
 - **記憶検索ロジック（予定）**  
-  SQLベースの記憶システムで過去の対話をトークンレベルで照合・スコアリングし、最も適切な記憶をTop-k選出・再ランキングで抽出。
+  SQLベースの記憶システムで過去の対話をトークンレベルで照合
 
 - **トレーニングパイプライン**  
   Mixed Precision Training（GradScaler・autocast）、Cosine Learning Rate Scheduler、Perplexity評価などを実装。
