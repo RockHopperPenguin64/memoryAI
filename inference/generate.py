@@ -33,7 +33,7 @@ def sample(model, idx, max_length=600, temperature=1.0, top_k=50, top_p=0.95):
         # 元の順番に並べ戻す
         logits = torch.zeros_like(logits).scatter(1, sorted_indices, sorted_logits)
 
-        # 最終的な確率から、ランダムに1つ選ぶ（運命の瞬間！）
+        # 最終的な確率から、ランダムに1つ選ぶ
         probs = torch.softmax(logits, dim=-1)
         next_token = torch.multinomial(probs, num_samples=1)
         
@@ -49,13 +49,13 @@ def main():
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model = GPT(cfg).to(device)
     
-    # 重みのロード（ファイルがあるか確認してね）
+    # 重みのロード
     try:
         model.load_state_dict(torch.load("checkpoints/best.pt", map_location=device))
     except:
         print("Warning: Trained weights not found. Using random weights.")
 
-    # トークナイザーの読み込み（パスを.modelファイルに変えてね）
+    # トークナイザーの読み込み
     sp_model = spm.SentencePieceProcessor()
     sp_model.load("data/tokenizer/my_tokenizer.model") 
 
