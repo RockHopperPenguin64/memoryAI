@@ -11,7 +11,7 @@ class RMSNorm(nn.Module):
         self.weight = nn.Parameter(torch.ones(dim))
 
     def forward(self, x):
-        # 二乗平均の平方根で割る。Llamaと同じ最新の正規化！
+        # 二乗平均の平方根で割る
         norm = x.pow(2).mean(-1, keepdim=True)
         return self.weight * x * torch.rsqrt(norm + self.eps)
 
@@ -40,8 +40,7 @@ class MultiHeadAttention(nn.Module):
         # Q, K, V に一気に変換して分割
         qkv = self.qkv_proj(x).chunk(3, dim=-1)
         q, k, v = [t.view(B, T, self.n_heads, self.head_dim).transpose(1, 2) for t in qkv]
-
-        # PyTorch公式の高速Attention。WATRの核心部分はここを通る
+        
         attn_output = F.scaled_dot_product_attention(
             q, k, v,
             attn_mask=attn_mask,
@@ -61,7 +60,7 @@ class TransformerBlock(nn.Module):
         self.mlp = MLP(cfg)
 
     def forward(self, x, attn_mask=None):
-        # 残差接続。前の知識を忘れずに、新しい注目ポイントを足す
+        # 残差接続
         x = x + self.attn(self.norm1(x), attn_mask)
         x = x + self.mlp(self.norm2(x))
         return x
@@ -78,7 +77,7 @@ class GPT(nn.Module):
         self.norm_final = RMSNorm(cfg.d_model)
         self.lm_head = nn.Linear(cfg.d_model, cfg.vocab_size, bias=False)
 
-        # 埋め込み層の共有（メモリ節約の天才的テクニック）
+        # 埋め込み層の共有
         if cfg.tie_embeddings:
             self.lm_head.weight = self.token_emb.weight
 
@@ -93,7 +92,7 @@ class GPT(nn.Module):
         x = self.dropout(self.token_emb(idx) + self.pos_emb[:, :T, :])
 
         for block in self.blocks:
-            # 勾配チェックポイント（中3のPCでも動かすための必須機能！）
+            # 勾配チェックポイント
             if self.cfg.use_checkpoint and self.training:
                 x = checkpoint(block, x, None, use_reentrant=False)
             else:
